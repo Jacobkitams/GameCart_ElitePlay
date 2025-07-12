@@ -1,10 +1,10 @@
-### **🎮 Gaming E-Commerce Platform - System Overview**  
+### **🎮 GameCart_ElitePlay Platform - System Overview**  
 
 #### **🌐 Core Purpose**  
 A responsive **online marketplace** for gaming accessories (e.g., PUBG Mobile UC, in-game items, hardware) with three distinct user roles:  
 1. **Admin** – Manages sellers and monitors platform activity.  
 2. **Seller** – Lists and sells gaming products.  
-3. **Buyer** – Purchases products via a user-friendly storefront.  
+3. **Customer** – Purchases products via a user-friendly storefront.  
 
 Built with **Laravel (backend)**, **MySQL (database)**, and **Tailwind CSS (styling)**.  
 
@@ -51,7 +51,7 @@ Built with **Laravel (backend)**, **MySQL (database)**, and **Tailwind CSS (styl
 - **Profile Settings**:  
   - Company details (name, country, contact with country code like `+256`).  
 
-#### **3. Buyer (Customer)**  
+#### **3. Customer**  
 - **Storefront**:  
   - Browse/search products with filters (price, game, category).  
   - Product pages with images, descriptions, and reviews.  
@@ -91,7 +91,7 @@ Built with **Laravel (backend)**, **MySQL (database)**, and **Tailwind CSS (styl
 
 #### **2. Backend**  
 - **Laravel Features**:  
-  - **Multi-auth**: Separate guards for admin/seller/buyer.  
+  - **Multi-auth**: Separate guards for admin/seller/customer.  
   - **Policies**: Restrict access (e.g., sellers can’t view admin tools).  
   - **Logging**: Seller actions stored in database.  
 - **Database**:  
